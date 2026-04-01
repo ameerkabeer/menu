@@ -19,10 +19,13 @@ h3{
     text-align: center;
 }
 
+li{
+    list-style-type:none;
+}
 button {
-  background-color: white; 
+  background-color: rgb(69, 212, 124); 
   border: none;
-  color: black;
+  color: rgb(15, 128, 49);
   padding: 9px 4x;
   text-align: center;
   text-decoration: none;
@@ -51,7 +54,7 @@ border-color: aquamarine;
     flex-wrap: wrap;
     gap:30px;
     padding-right: 25px;
-
+  border: none;
 }
 .vegfood{
     box-sizing: border-box;
@@ -60,6 +63,8 @@ border-color: aquamarine;
     border-style: solid;
     padding: 5px;
     transition: 0.3s;
+    background-color: rgb(115, 233, 213);
+    border: none;
 }
 
 .vegfood:hover{
@@ -80,6 +85,7 @@ border-color: rgb(63, 3, 141);
     flex-wrap: wrap;
     gap:30px;
     padding-right: 25px;
+    border: none;
 }
 
 .nonveg{
@@ -88,12 +94,21 @@ border-color: rgb(63, 3, 141);
     border-color: rgb(172, 6, 6);
     border-style: solid;
     padding: 5px;
+    border:none;
+    background-color: rgb(171, 230, 33);
     
 }
 
 .nonveg:hover{
     border-style: solid;
 box-shadow: 0 8px 12px 0 rgba(22, 255, 14, 0.2);
-border-color: rgb(164, 181, 204);
+border-color: rgb(87, 110, 33);
 transition: 0.3s;
+}
+
+@media (max-width:500px){
+    h2,h3{
+        font-size: 20px;
+        text-align: center;
+    }
 }
