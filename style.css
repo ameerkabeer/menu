@@ -1,0 +1,99 @@
+body{
+background-color: azure;
+}
+
+h2{
+    text-align: center;
+    color: rgb(34, 16, 16);
+    
+}
+
+img{
+    width:250px;
+    height: 250px;
+
+}
+
+h3{
+    color: rgb(197, 136, 43);
+    text-align: center;
+}
+
+button {
+  background-color: white; 
+  border: none;
+  color: black;
+  padding: 9px 4x;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+ 
+button:hover{
+border-style: solid;
+box-shadow: 0 8px 12px 0 rgba(12, 233, 5, 0.2);
+border-color: aquamarine;
+}
+
+.Vegetarian{
+    box-sizing: border-box;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 0 8px 12px 0 rgba(58, 59, 58, 0.2);
+    border-radius: 10px;
+    margin:20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    padding-right: 25px;
+
+}
+.vegfood{
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: rgb(172, 6, 6);
+    border-style: solid;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.vegfood:hover{
+    border-style: solid;
+box-shadow: 0 8px 12px 0 rgba(12, 233, 5, 0.2);
+border-color: rgb(63, 3, 141);
+}
+
+.nonvegetarian{
+    box-sizing: border-box;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 0 8px 12px 0 rgba(58, 59, 58, 0.2);
+    border-radius: 10px;
+    margin:20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    padding-right: 25px;
+}
+
+.nonveg{
+     box-sizing: border-box;
+    border-radius: 5px;
+    border-color: rgb(172, 6, 6);
+    border-style: solid;
+    padding: 5px;
+    
+}
+
+.nonveg:hover{
+    border-style: solid;
+box-shadow: 0 8px 12px 0 rgba(22, 255, 14, 0.2);
+border-color: rgb(164, 181, 204);
+transition: 0.3s;
+}
